@@ -55,7 +55,7 @@ const OurRecipes = () => {
         cuisines, from traditional favorites to innovative creations
       </p>
 
-      <div className="flex flex-col lg:flex-row gap-4 mt-7">
+      <div className="flex flex-col-reverse lg:flex-row gap-4 mt-7">
         <div className="lg:w-[calc((320px*2)+12px)] flex flex-wrap gap-3 justify-center">
           {recipesData.map((recipe, idx) => (
             <Recipe
