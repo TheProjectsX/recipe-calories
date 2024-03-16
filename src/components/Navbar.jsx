@@ -17,7 +17,7 @@ const Navbar = () => {
 
         <div>
           <button className="text-xl sm:text-2xl font-bold">
-            <a>Recipe Calories</a>
+            <a>Flavor Junction</a>
           </button>
         </div>
 
